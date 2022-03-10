@@ -1,87 +1,185 @@
 {
-    "name": "Raganork",
-    "description": "Raganork bot - Extra featured, fully customisable WhatsApp Public/User bot.",
-    "logo": "https://www.linkpicture.com/q/rgnk.jpg",
-    "keywords": ["WhatsApp", "Userbot", "Raganork", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/souravkl11/Raganork",
-    "website":   "https://bit.ly/Raganork",
-    "success_url": "https://bit.ly/Raganork",
+    "name": "Sana-Mwol",
+    "description": "Sana is the Modified Version of WhatsAsena, Made By @aju with Baileys.",
+    "logo": "https://i.imgur.com/2bWHUWI.jpg",
+    "keywords": ["whatsapp", "userbot", "Abu", "WhatsAsena", "ser", "bot", "ai"],
+    "repository": "https://github.com/Afx-Abu/Sana-Mwol",
+    "website":   "https://github.com/Afx-Abu/Sana-Mwol",
+    "success_url": "https://github.com/Afx-Abu/Sana-Mwol",
     "stack": "container",
     "env": {
-        "RAGANORK_CODE": {
-            "description": "Raganork code (QR scan cheythappo kittiya code). Type here yours Raganork code.",
+        "SANA_SESSION": {
+            "description": "Type here yours Abu Session.",
             "required": true
         },
-       "C_CODE": {
-            "description": "Your country code. Use 91 for India!.",
-            "required": true,
-            "value": "91"
-        },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it!",
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 91xxxxxxxxx,0",
             "required": false
         },
         "LANGUAGE": {
-            "description": "Bot language. English => en, Malayalam => ml, Hindi => HI,",
+            "description": "Bot language.English => en",
             "required": true,
             "value": "en"
         },
-        "M_REPLY": {
-            "description": "Auto reply when mentioned.",
-            "required": true,
-            "value":"*Mention reply message here*"
-        },
-        "M_REPLY_VAR": {
-            "description": "Auto reply true/false.",
-            "required": true,
-            "value":"true"
-},
         "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
             "value": "true"
         },
-        "ALL_IMG": {
-            "description": "Give an image link for your bot!",
-            "required": true,
-            "value": "https://i.pinimg.com/originals/0e/c8/8c/0ec88ca1469125fc11b4ce76830602f4.jpg"
+        "OWNER_NAME": {
+            "description": "Fill your name in here. it will show your name in .owner command reply",
+            "required": false,
+            "value": "💖ᴀʙᴜ sᴇʀ💖"
         },
-        "DIALOGUE": {
-            "description": "Give an image link for your bot!",
-            "required": true,
-            "value": "Killadism never ends! (Change this)"
+        "AUTO_STICKER": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false",
+            "required": false,
+            "value": "true"
         },
-        "ALL_CAPTION": {
-            "description": "Give your caption here. Example: Made by Raganork.",
+        "LG_LOGO": {
+            "description": "LOGO list message image link(https://telegra.ph/)link.",
             "required": true,
-            "value": "*YOUR CAPTION HERE*"
+            "value": "https://i.imgur.com/2bWHUWI.jpg"
         },
-        "VERIFIED": {
-            "description": "Jid given above the verified tick. Use 0 for official WhatsApp",
+        "LOGO_NAME": {
+            "description": "Set the logo list name",
             "required": true,
-            "value": "0@s.whatsapp.net"
+            "value": "◄━⦁⦁💖︎𝙸𝚃𝚉 𝙼𝙴 𝚂𝙰𝙽𝙰 𝙼𝚆𝙾𝙻💖⦁⦁━►︎"
         },
-        "HANDLERS": {
-            "description": "Prefix for commands. You can also use 'false' for no prefix",
-            "required": true,
-            "value": "^[,@#!.]"
-        },
-        "CALL_BLOCK": {
-            "description": "Set true if you need to block people who calls you 📞.",
+        "TALKING_SANA": {
+            "description": " Turn your account into a chatbot!",
             "required": true,
             "value": "false"
         },
+        "GROUP_LINK": {
+            "description": "Enter Your Group Link",
+            "required": true,
+            "value": "https://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk"
+        },
+        "WEL_GIF": {
+            "description": "Fill here any gif link if you selected gif as WEELCOME",
+            "required": false,
+            "value": "false"
+        },
+        "BYE_GIF": {
+            "description": "Fill here any gif link if you selected gif as WEELCOME",
+            "required": false,
+            "value": "false"
+        },
+        "ANTİ_LİNK": {
+            "description": "Link Blocking System.",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_BİO": {
+            "description": " Set true for auto date, time in biography.",
+            "required": true,
+            "value": "false"
+        },
+        "HANDLERS": {
+            "description": "For commands.",
+            "required": true,
+            "value": "^[.!;]"
+        },
+        "FULL_EVA": {
+            "description": "Turn your account into a chatbot!",
+            "required": true,
+            "value": "false"
+        },
+        "NO_LOG": {
+            "description": " Set true if you don't want to see error log.",
+            "required": true,
+            "value": "false"
+        },
+        "SEND_READ": {
+            "description": "Write true if you want to throw seen.",
+            "required": true,
+            "value": "true"
+        },
+        "ALL_CAPTION": {
+            "description": "Caption for images and videos generated by pinky bot",
+            "required": false,
+            "value": "❤𝙼𝙰𝙳𝙴 𝙱𝚈 𝚂𝙰𝙽𝙰 𝙼𝚆𝙾𝙻️💙"
+        },
+        "HEROKU": {
+            "description": "If it is running in Heroku, type true.",
+            "required": true,
+            "value": "true"
+        },
         "HEROKU_API_KEY": {
-            "description": "Heroku API Key. (You can find it in account settings)",
+            "description": "Heroku API Key.",
             "required": true
         },
-        "BLOCK_CHAT": {
-            "description": "Choose in which chat the bot won't work there. Ex: 91xxxx && 91xxxx-1xxx or 91xxxxx,91xxxx...",
+        "MUTE_MESSAGE": {
+            "description": "Customizable Mute Message! Use => default, to change back.",
             "required": false,
-            "value": "919074309534"
+            "value": "default"
+        },
+        "TAG_HEADER": {
+            "description": "Heading when taging all",
+            "required": false,
+            "value": "machanmare.."
+        },
+        "BLOCK_CHAT": {
+            "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
+            "required": false,
+            "value": "false"
+        },
+        "UNMUTE_MESSAGE": {
+            "description": "Customizable Unmute Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "BLOCK_MESSAGE": {
+            "description": "Customizable Block Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "UNBLOCK_MESSAGE": {
+            "description": "Customizable Unblock Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "NUMBER": {
+            "description": "Enter the owner number, You must enter your number, Please don't enter the number with country code ( example : 91 for indian ) Also don't enter space & + on the number ( example : 91996132xxxx for indian ). ( This number will be shown on some commands )",
+            "required": false,
+            "value": "917025994178"
+        },
+        "DEPLOYER": {
+            "description": "enter your name here",
+            "required": false
+        },
+        "BUTTON_TEXT": {
+            "description": "It Will Show as Button Texts.. (*Example: text1/text2*)",
+            "required": false,
+            "value": "♥️♥️♥️/💙💙💙"
+        },
+        "FAKE_PREVIEW": {
+            "description": "Fake Web Preview.. (*Example: Head\nBody\nLink\nmediaType[2 or 3]\nthumbnailUrl)",
+            "required": false,
+            "value": "sᴀɴᴀ ᴍᴡᴏʟ\nwhile ( ! (succeed = try () ) );,l\nhttps://instagram.com/_.lino_ox?utm_medium=copy_link\n2\nhttps://i.imgur.com/2bWHUWI.jpg"
+        },
+        "BGM_DURATION": {
+            "description": "FUNY BGM DURATION  codded by SAIDALI",
+            "required": false,
+            "value": "39999600"
+        },
+        "VERIFICATION_CAPTION": {
+            "description": "Set Verification Tik Caption",
+            "required": false
+        },
+        "THUMBNAIL_URL": {
+            "description": "Paste the image url here to set your photo logo as thumbnail",
+            "required": false,
+            "value": "https://i.imgur.com/2bWHUWI.jpg"
+        },
+        "BOT_NAME": {
+            "description": "heading for .list command reply",
+            "required": false,
+            "value": "🦋 𝚂𝙰𝙽𝙰 𝙼𝚆𝙾𝙻 🦋"
         },
         "WORK_TYPE": {
-            "description": "Raganork bot Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+            "description": "Sana Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
@@ -89,100 +187,74 @@
             "description": "Heroku APP Name.",
             "required": true
         },
+        "DEBUG": {
+            "description": "Debugging",
+            "required": true,
+            "value": "false"
+        },
         "REMOVE_BG_API_KEY": {
-            "description": "visit https://remove.bg for api key",
+            "description": "https://remove.bg",
             "required": false
+        },
+        "ALIVE_BUTTON": {
+            "description": "Customize Alive Button ",
+            "required": true,
+            "value": "ᴇɴɢᴀɴᴇʏᴜɴᴅ \n ᴀʙᴜ sᴇʀ🌝"
+        },
+        "ALIVE_BUTTON2": {
+            "description": "Customize Alive Button ",
+            "required": true,
+            "value": "ᴘᴏᴡᴇʀᴇᴇsʜ🤩"
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "Alive message here"
+            "value": "\n ```I Am Alive !!!\n Njan engttum poytilla ivde ind 😁 \n created by Abu```\n\n```Type``` *.help* ```for commands```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
-            "value": " _See you later!_"
+            "value": "default"
         },
         "SONGD": {
-            "description": "Customizable song uploading message!",
+            "description": "Customizable song DOWNLOADING message instead of 'Dowloading your song'",
+            "required": true,
+            "value": "*♡︎..sᴀɴᴀ..ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ..♡︎*"
+        },
+        "SONGU": {
+            "description": "Customizable song UPLOADING message instead of 'Uploading your song'",
+            "required": true,
+            "value": "*♡︎..ᴜᴘʟᴏᴀᴅɪɴɢ..ᴜsᴇ..ʜᴇᴅsᴇᴛ..ғᴏʀ..ʙᴇᴛᴇʀ..☏︎*"
+        },
+        "ADD_MESSAGE": {
+            "description": "Customizable Add Message! Use => default, to change back.",
             "required": false,
-            "value": "_Uploading song.._"
+            "value": "default"
         },
         "KICKME_MESSAGE": {
             "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
-            "value": "_I'm leaving, Bye!_"
+            "value": "default"
         },
-        "SONGD": {
-            "description": "Customizable song downloading message!",
-            "required": true,
-            "value": "_Searching song.._"
-        },
-        "ALL_NUMBER": {
-            "description": "Type your number here",
+        "PROMOTE_MESSAGE": {
+            "description": "Customizable Promote Message! Use => default, to change back.",
             "required": false,
-            "value": "wa.me/919074309534"
+            "value": "default"
         },
-        "V_HEADER": {
-            "description": "Shows on top of verified tick. Type any words here.",
-            "required": true,
-            "value": "Any words here"
+        "DEMOTE_MESSAGE": {
+            "description": "Customizable Demote Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
+        },
+        "AFK_MESSAGE": {
+            "description": "Customizable AFK Message! Use => default, to change back.",
+            "required": false,
+            "value": "default"
         },
         "NO_ONLINE": {
-            "description": "Type true if you don't want to appear online.",
+            "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
-        },
-        "IG": {
-            "description": "Your instagram link(optional)!",
-            "required": false,
-            "value": "https://instagram.com/username"
-        },
-        "OWNER_NAME": {
-            "description": "Owner name used in many commands! Type your name here.",
-            "required": true,
-            "value": "Owner name"
-        },
-        "TAG_HEADER": {
-            "description": "Owner name used in many commands! Type your name here.",
-            "required": false,
-            "value": "*Hey*"
-        },   
-        "FIND_KEY": {
-            "description": "API key for .find command. Get it from https://dashboard.audd.io/",
-            "required": false,    
-            "value": ""
-        },
-        "TAKE_KEY": {
-            "description": "API key for .take command. Get it from https://api.imgbb.com/",
-            "required": false,    
-            "value": "916282344739@s.whatsapp.net"
-        },
-        "STICKER_DATA": {
-            "description": "Sticker packname changer. Give any text here",
-            "required": false,    
-            "value": "Raganork|Souravkl11"
-        },
-        "REMOVE_FILTER": {
-            "description": "By using these words on .antiword enabled groups, user will be kicked!",
-            "required": false,    
-            "value": "Fuck,Bitch,Myre"
-        },
-        "AUDIO_DATA": {
-            "description": "Name and image for audio name changing feature. Give Title;artist;thumbnailurl format",
-            "required": false,    
-            "value": "Generated using ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;sᴏᴜʀᴀᴠᴋʟ¹¹;https://www.linkpicture.com/q/rgnk.jpg"
-        },
-        "GROUP_LINK": {
-            "description": "Official group link of your bot.",
-            "required": true,    
-            "value": "https://chat.whatsapp.com/Dt3C4wrQmt0GG6io1IBIHb"
-        },
-        "BOT_NAME": {
-            "description": "Your bot's name. This is very important!",
-            "required": true,
-            "value": "Bot name"
-             
         }
     },
     "addons": [{
