@@ -1,9 +1,8 @@
-FROM fusuf/whatsasena:latest
+FROM quay.io/lyfe00011/test:beta
 
-RUN git clone https://github.com/souravkl11/Raganork /skl/Raganork
-WORKDIR /skl/Raganork
-ENV TZ=Asia/Kolkata
-RUN npm install supervisor -g
+RUN git clone https://github.com/Afx-Abu/Sana-Mwol /root/WhatsAsenaDuplicated
+WORKDIR /root/WhatsAsenaDuplicated/
 RUN yarn install --no-audit
-
-CMD ["node", "index.js"]
+RUN git clone https://github.com/Afx-Abu/uploads
+RUN cp -R /root/Utils/* /root/WhatsAsenaDuplicated 
+CMD ["node", "bot.js"]
