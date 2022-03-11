@@ -1,7 +1,7 @@
 {
     "name": "Luzi-Mwol",
-    "description": "Luzi is the Modified Version of WhatsAsena, Made By @aju with Baileys.",
-    "logo": "https://i.imgur.com/2bWHUWI.jpg",
+    "description": "Luzi is the Modified Version of WhatsAsena, Made By @Afx-Abu with Baileys.",
+    "logo": "https://i.imgur.com/QhgiNnx.jpg",
     "keywords": ["whatsapp", "userbot", "Abu", "WhatsAsena", "ser", "bot", "ai"],
     "repository": "https://github.com/Afx-Abu/Luzi-Mwol",
     "website":   "https://github.com/Afx-Abu/Luzi-Mwol",
@@ -39,7 +39,7 @@
         "LG_LOGO": {
             "description": "LOGO list message image link(https://telegra.ph/)link.",
             "required": true,
-            "value": "https://i.imgur.com/2bWHUWI.jpg"
+            "value": "https://i.imgur.com/QhgiNnx.jpg"
         },
         "LOGO_NAME": {
             "description": "Set the logo list name",
