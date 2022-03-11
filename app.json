@@ -56,6 +56,11 @@
             "required": true,
             "value": "https://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk"
         },
+        "NAME_STYLE": {
+            "description": "Set the your name",
+            "required": true,
+            "value": "© ʟᴜᴢɪ ™"
+        },
         "WEL_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
             "required": false,
