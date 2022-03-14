@@ -85,6 +85,11 @@
             "required": true,
             "value": "https://chat.whatsapp.com/Bq0eHs3UpGJ2BKIHOmy7mk"
         },
+        "INSTA_LINK": {
+            "description": "Enter Your Group Link",
+            "required": true,
+            "value": "https://instagram.com/"
+        },
         "NAME_STYLE": {
             "description": "Set the your name",
             "required": true,
