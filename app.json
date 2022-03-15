@@ -76,7 +76,7 @@
             "value": "false"
         },
         "LUZI_AI": {
-            "description": "turn on chat back auto reply Tᴀᴜʀᴜs (use true to on and fale to off)",
+            "description": "turn on chat back auto reply  (use true to on and fale to off)",
             "required": true,
             "value": "false"
         },
@@ -89,6 +89,11 @@
             "description": "Enter Your Group Link",
             "required": true,
             "value": "https://instagram.com/"
+        },
+        "YT_LINK": {
+            "description": "Enter Your Group Link",
+            "required": true,
+            "value": "https://youtube.com/channel/"
         },
         "NAME_STYLE": {
             "description": "Set the your name",
